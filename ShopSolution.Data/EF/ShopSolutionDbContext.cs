@@ -32,7 +32,6 @@ namespace ShopSolution.Data.EF
         }
 
         public DbSet<AppConfig> AppConfigs { set; get; }
-        public DbSet<BaseEntity> BaseEntitys { set; get; }
         public DbSet<Cart> Carts { set; get; }
         public DbSet<Category> Categorys { set; get; }
         public DbSet<CategoryTranslation> CategoryTranslations { set; get; }

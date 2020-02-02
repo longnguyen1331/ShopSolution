@@ -8,3 +8,6 @@
 - Microsoft.EntityFrameworkCore.Design
 ## How to configure and run
 ## How to contribute
+## Document use in Project
+- https://www.learnentityframeworkcore.com
+- https://docs.microsoft.com/en-us/ef/core/

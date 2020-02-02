@@ -1,4 +1,4 @@
-﻿using ShopSolution.Data.Entities.Enums;
+﻿using ShopSolution.Data.Enums;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -11,5 +11,7 @@ namespace ShopSolution.Data.Entities
         public bool IsShowHome { set; get; }
         public int? ParentId { set; get; }
         public Status Status { set; get; }
+        public List<ProductInCategory> ProductInCategories { set; get; }
+        public List<CategoryTranslation> CategoryTranslations { set; get; }
     }
 }
